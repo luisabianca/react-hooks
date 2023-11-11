@@ -7,7 +7,7 @@ const CodeExample = () => {
     // be careful
     // setValue(value + 1);
   };
-  sayHello();
+  // sayHello(); 
   return (
     <div>
       <h1>value : {value}</h1>
