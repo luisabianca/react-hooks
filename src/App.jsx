@@ -1,4 +1,4 @@
-import Starter from './tutorial/01-useState/Starter/03-useState-array'
+import Starter from './tutorial/01-useState/starter/04-useState-object'
 
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       <h2>Advanced React</h2>
       <Starter />
     </div>
-  );
+  ); 
 }
 
 export default App;
