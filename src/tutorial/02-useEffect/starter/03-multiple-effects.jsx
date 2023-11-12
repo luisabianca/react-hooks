@@ -8,9 +8,9 @@ const MultipleEffects = () => {
   //   console.log('hello from first useEffect');
   // }, []);
 
-  // useEffect(() => {
-  //   console.log('hello from second useEffect');
-  // }, []);
+  useEffect(() => {
+    console.log('hello from second useEffect');
+  }, []);
   return (
     <div>
       <h1>value : {value}</h1>
