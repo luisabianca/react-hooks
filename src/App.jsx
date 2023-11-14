@@ -4,7 +4,6 @@ import Final from './tutorial/03-conditional-rendering/final/02-multiple-returns
 function App() {
   return (
     <div className='container'>
-      <h2>Advanced React</h2>
       <Starter /> 
       <Final />
     </div>
