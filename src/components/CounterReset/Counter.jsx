@@ -17,7 +17,7 @@ const Counter = () => {
 
   return (
     <>
-      <h1>Counter</h1>
+      <h1>Counter with reset</h1>
       <h2>{count}</h2>
       <button onClick={handleClick}>increment</button>
       <button onClick={resetCount}>reset</button>
