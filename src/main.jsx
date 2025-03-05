@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './components/useContext/LoginTheme/LoginApp.jsx'
+import CounterRender from './components/useRef/CounterRender/CounterRender.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <CounterRender />
   </StrictMode>,
 )
