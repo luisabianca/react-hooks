@@ -3,11 +3,13 @@ import { ThemeContext, ThemeProvider } from "./ThemeContext"; // Importando o Co
 
 const ThemeToggle = () => {
   // Consumindo o contexto usando useContext
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
+
+  console.log(isDarkTheme)
 
   return (
     <>
-      <h1>O tema atual é: {theme}</h1>
+      <h1>O tema atual é: {isDarkTheme ? "Escuro" : "Claro"}</h1>
       <button onClick={toggleTheme}>Mudar Tema</button>
     </>
   );
