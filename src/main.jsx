@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import CounterDelay from './components/useState/CounterDelay/CounterDelay.jsx'
+import RealTimeClock from './components/useState/RealTimeClock/RealTimeClock.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CounterDelay />
+    <RealTimeClock />
   </StrictMode>,
 )
