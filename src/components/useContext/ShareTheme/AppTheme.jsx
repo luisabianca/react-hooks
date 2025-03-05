@@ -5,8 +5,6 @@ const ThemeToggle = () => {
   // Consumindo o contexto usando useContext
   const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
 
-  console.log(isDarkTheme)
-
   return (
     <>
       <h1>O tema atual é: {isDarkTheme ? "Escuro" : "Claro"}</h1>
