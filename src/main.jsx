@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Counter from './components/CounterReset/Counter.jsx'
+import ChangeTheme from './components/useState/ChangeTheme/ChageTheme.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Counter />
+    <ChangeTheme />
   </StrictMode>,
 )
